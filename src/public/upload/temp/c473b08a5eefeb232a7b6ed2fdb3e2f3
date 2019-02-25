@@ -1,0 +1,30 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: isaac
+ * Date: 14/11/18
+ * Time: 17:18
+ */
+
+class Pelicula
+{
+public $name;
+public $genre;
+public $year;
+public $actors;
+
+function __construct($name)
+{
+    $this->name=$name;
+}
+
+    function getName(){
+    return $this->name;
+
+    }
+
+    function setName($name)
+    {
+        return $this->name = $name
+    }
+}
